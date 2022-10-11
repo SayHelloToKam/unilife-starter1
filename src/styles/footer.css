@@ -2,9 +2,33 @@
     display: flex;
     background-color: var(--med-lt-blue);
     color: var(--white);
-    font-size: 16px;
+    font-size: 14px;
     font-weight:300;
-    padding: 50px 80px;
+    width: 100%;
+    padding: 60px 120px;
+    justify-content: space-between;
+}
+
+.footer-top-container h2{
+    font-size: 26px;
+    font-weight:400;
+    padding-bottom: 16px;
+}
+
+.footer-top-container p{
+    line-height: 1.5;
+    padding-bottom: 18px;
+}
+
+.footer-top-container input{
+    line-height: 1.5;
+    margin-top: 15px;
+    width: 100%;
+    height: 42px;
+    border-radius: 12px;
+    border: none;
+    padding-left: 15px;
+    color: rgba(42, 42, 42, 0.4);
 }
 
 .footer-bottom-container{
@@ -24,4 +48,13 @@
 
 .footer-bottom-right p{
     padding-right: 20px;
+}
+
+.footer-contact-left, .footer-social-right {
+    width: 40%;
+}
+
+.footer-social-right p{
+    font-size: 16px;
+    
 }
