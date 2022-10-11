@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root{
+    --dark-blue: #3A5295;
+    --white: #fff;
+    --header-height: 60px;
+    --med-lt-blue:#00A2E1;
+    --dark-bg: #221f1f;
+    --light-bg: #3C3C3C;
+    --transparent-bg: rgba(20, 20, 20, 0.7);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: var(--white);
+    color: var(--light-bg);
+    font-family: 'Epilogue', sans-serif;
+  }

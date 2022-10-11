@@ -1,0 +1,29 @@
+.hero-overlay {
+    background: rgb(11,11,13,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-text {
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: 35%;
+    text-align: center;
+    align-items: center;
+    color:var(--white);
+    z-index:1;    
+}
+.hero-text h1 {
+    width: 50%;
+    font-size: 52px;
+    font-weight:500;
+}
+
+.hero-text p{
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
