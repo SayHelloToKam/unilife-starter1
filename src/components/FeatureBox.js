@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/featureBox.css'
 import { TbListSearch } from "react-icons/tb";
-import { MdChecklistRtl } from "react-icons/md";
+import { MdChecklistRtl, MdOutlineHouse } from "react-icons/md";
 import { RiFilePaper2Line } from "react-icons/ri";
 
 function FeatureBox() {
@@ -27,6 +27,30 @@ function FeatureBox() {
           </div>
         </div>
       </div>
+
+      <div className='feature-white-container'>
+        
+        <div className="bottom-feature-left">
+        <div className='feature-item-left'>
+          <p className='feature-little-icon'><MdOutlineHouse/></p>
+          <div>
+            <h3 className='heading-text'>Best Selection</h3>
+            <p className='basic-text'>Best selection of student accommodations. Never been easier to find a home that's right for you.</p>
+          </div>
+        </div>
+
+        <div className='feature-item-left'>
+          <p className='feature-little-icon'><MdOutlineHouse/></p>
+          <div>
+            <h3 className='heading-text'>Your favorite</h3>
+            <p className='basic-text'>Shortlist your favorite properties and send enquiries in one click.</p>
+            <button className='feature-button'>Search & Compare</button>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
     </div>
   )
 }

@@ -1,10 +1,18 @@
+.feature-container {
+    margin: 10px 80px;
+}
+
 .light-blue-container{
     background-color: var(--light-blue);
     padding: 50px 30px;
-    margin: 50px 80px 0;
+    margin: 50px 0px 50px;
     border-radius: 24px;
     text-align: center;
     font-weight: 400;
+}
+
+.feature-white-container {
+    margin: 70px 40px;
 }
 
 .light-blue-container h2{
@@ -31,9 +39,49 @@
 
 .feature p{
     line-height: 1.5;
+    color: rgb(66, 66, 66);
 }
 
 .feature-icon{
     font-size:64px;
     color: var(--dark-blue);
 }
+
+.feature-little-icon{
+    font-size:36px;
+    padding-right: 10px;
+    color: var(--dark-blue);
+}
+
+.feature-item-left {
+    display: flex;
+    width: 40%;
+}
+
+.feature-item-left .heading-text {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;;
+}
+
+.feature-item-left .basic-text {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.feature-item-left button {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    margin: 0 5px;
+    width: 200px;
+    padding: 8px 16px;
+    border-radius: 9px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
