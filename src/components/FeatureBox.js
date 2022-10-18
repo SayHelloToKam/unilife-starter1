@@ -3,8 +3,22 @@ import '../styles/featureBox.css'
 import { TbListSearch } from "react-icons/tb";
 import { MdChecklistRtl, MdOutlineHouse } from "react-icons/md";
 import { RiFilePaper2Line } from "react-icons/ri";
+import featureImage from "../assets/person.png";
 
 function FeatureBox() {
+
+  const featureStyle = {
+    display: "flex",
+    justifyContent: "center",
+    height: "400px",
+    width: "400px",
+    backgroundImage: `url(${featureImage})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    position: "relative",
+  };
+
   return (
     <div className='feature-container'>
       <div className='light-blue-container'>
@@ -40,14 +54,17 @@ function FeatureBox() {
         </div>
 
         <div className='feature-item-left'>
-          <p className='feature-little-icon'><MdOutlineHouse/></p>
-          <div>
-            <h3 className='heading-text'>Your favorite</h3>
-            <p className='basic-text'>Shortlist your favorite properties and send enquiries in one click.</p>
-            <button className='feature-button'>Search & Compare</button>
-          </div>
+            <p className='feature-little-icon'><MdOutlineHouse/></p>
+            <div>
+              <h3 className='heading-text'>Your favorite</h3>
+              <p className='basic-text'>Shortlist your favorite properties and send enquiries in one click.</p>
+              <button className='feature-button'>Search & Compare</button>
+            </div>
         </div>
 
+        </div>
+        <div className='feature-img' style={featureStyle}>
+          
         </div>
       </div>
 
